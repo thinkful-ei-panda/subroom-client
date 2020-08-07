@@ -1,4 +1,0 @@
-- the purpose of subroom is to allow a space where users can store and keep track of all of their different online subscriptions
-- Subroom allows users to make an account and Log in
-- Users are able to add subscription information to their dashboard
-- Users are able to edit and delete their subscription informations as well
