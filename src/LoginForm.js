@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import TokenService from './services/token-service'
 import AuthService from './services/auth-service'
+import './LoginForm.css'
 
 class LoginForm extends Component {
     static defaulProps = {
@@ -35,6 +36,7 @@ class LoginForm extends Component {
     render() {
         const { error } = this.state
         return (
+            <section>
             <form className="LoginForm" onSubmit={this.handleSubmitJwtAuth}>
                 <div role='alert'>
                     {error && <p className='red'>{error}</p>}
@@ -47,10 +49,11 @@ class LoginForm extends Component {
                     <label htmlFor="Login__password">Password</label>
                     <input required type="password" id="password" name="password"></input>
                 </div>
-                <button type="submit">
+                <button type="submit" className="LoginPageButton">
                     Login
                 </button>
             </form>
+            </section>
         )
     }
 }

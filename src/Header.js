@@ -16,7 +16,9 @@ export default class Header extends Component {
                 <Link
                     onClick={this.handleLogoutClick}
                     to='/'>
+                    <button className="logout-button">
                     Logout
+                    </button>
                 </Link>
             </div>
         )
@@ -41,9 +43,7 @@ export default class Header extends Component {
         return (
             <nav className='header'>
                 <h1>
-                    <Link to='/'>
-                        Dashboard
-                    </Link>
+                    Your Subscriptions!
                 </h1>
                 {TokenService.hasAuthToken()
                     ? this.renderLogoutLink()

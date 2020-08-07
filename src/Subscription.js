@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import config from './config'
 import TokenService from './services/token-service'
+import './Subscription.css'
 
  function Subscription(props) {
     
@@ -40,16 +41,16 @@ import TokenService from './services/token-service'
             <p>Subscription Password: {props.password}</p>
             <p>Payment Type: {props.category}</p>
         </div>
-        <div className="buttons"> 
-            <button onClick={ deleteSubscriptionRequest }>
+        <section className="subscription-buttons">
+            <button className="subscription-delete" onClick={ deleteSubscriptionRequest }>
                 Delete
             </button>
-        </div>
         <Link to={`/edit/${props.id}`}>
-            <button type="button">
+            <button className="subscription-edit" type="button">
                 Edit
             </button>
             </Link>
+            </section>
         </section>
     )
 }

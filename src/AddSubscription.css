@@ -1,0 +1,4 @@
+.addSubscription {
+    display: flex;
+    flex-direction: column;
+}

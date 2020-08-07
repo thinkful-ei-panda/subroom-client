@@ -1,0 +1,27 @@
+.Registration_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 80px 20px 80px;
+}
+
+.Registration_password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 80px 20px 80px;
+}
+
+.RegistrationPageButton {
+    margin-left: 80px;
+    padding: 5px
+}
+
+form {
+    border: solid black;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 20px;
+    
+}

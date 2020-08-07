@@ -4,6 +4,7 @@ import Subscription from './Subscription'
 import config from './config'
 import TokenService from './services/token-service'
 import Header from './Header'
+import './Dashboard.css'
 
 export default class Dashboard extends React.Component {
 
@@ -47,6 +48,13 @@ export default class Dashboard extends React.Component {
             <header className='App-header'>
                 <Header />
             </header>
+            <section className="add-new-subscription">
+            <Link to="/addSubscription">
+            <button>
+                Add New Subscription
+            </button>
+            </Link>
+            </section>
             <ul>
                 {this.state.subscriptions.map(subscription =>
                   <li key={subscription.id}>
@@ -64,11 +72,7 @@ export default class Dashboard extends React.Component {
                   </li>  
                   )}
             </ul>
-            <Link to="/addSubscription">
-            <button>
-                Add New Subscription
-            </button>
-            </Link>
+            
             
             </section>
     )

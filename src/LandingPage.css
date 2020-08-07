@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 body {
     background-color: #CCD4E6;
 }
@@ -12,6 +13,9 @@ h1 {
     display: flex;
     font-size: 2em;
     justify-content: center;
+    margin: 20px 20px 20px 20px;
+    font-family: 'Pangolin', cursive;
+    border: 5px solid black;
 }
 
 h2 {
@@ -19,22 +23,30 @@ h2 {
     font-size: 1.5em;
     justify-content: center;
     padding-top: 40px;
+    font-family: 'Pangolin', cursive;
 }
 
 p {
     font-size: 20px;
     margin: 0 20px 20px 20px;
+    font-family: 'Pangolin', cursive;
+    
 }
 
 .description {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 5px solid black;
+    border-width: medium;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
 }
 

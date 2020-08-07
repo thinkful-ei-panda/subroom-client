@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 import AuthService from './services/auth-service'
+import './RegistrationForm.css'
 
 class LoginForm extends Component {
     static defaulProps = {
@@ -46,7 +47,7 @@ class LoginForm extends Component {
                     <label htmlFor="Registration__password">Password</label>
                     <input required type="password" id="password" name="password"></input>
                 </div>
-                <button type="submit">
+                <button className="RegistrationPageButton" type="submit">
                     Register
                 </button>
             </form>
