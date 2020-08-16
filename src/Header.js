@@ -13,6 +13,7 @@ export default class Header extends Component {
     renderLogoutLink() {
         return(
             <div className = 'logged-in'>
+                
                 <Link
                     onClick={this.handleLogoutClick}
                     to='/'>
@@ -20,6 +21,8 @@ export default class Header extends Component {
                     Logout
                     </button>
                 </Link>
+                
+                        
             </div>
         )
     }
@@ -27,14 +30,7 @@ export default class Header extends Component {
     renderLoginLink() {
         return (
             <div className='not-logged-in'>
-                <Link
-                    to='/register'>
-                        Register
-                </Link>
-                <Link
-                    to='/login'>
-                        Log in
-                </Link>
+                
             </div>
         )
     }
