@@ -1,15 +1,14 @@
 LIVE LINK: https://subroom.vercel.app
 
-
-
+Demo Credentials-
+Username: Thinkful
+Password: Thinkful1!
 
 ![Alt text](https://github.com/thinkful-ei-panda/subroom-client/blob/master/Readmeimg/LangingPage.png)
 
 - subroom is an app that allows user to make a secure account to store all of their subscription information in one place
 
-
 ![Alt text](https://github.com/thinkful-ei-panda/subroom-client/blob/master/Readmeimg/Login.png)
-
 
 - The login and register forms require a password with at least one uppercase and lowercase letter as well as a number and a special character.
 - passwords must but at least 5 characters long
@@ -22,7 +21,6 @@ LIVE LINK: https://subroom.vercel.app
 
 - the add subscription form allows you to input your subscription information
 - entering password and usernames are not required
-
 
 TECHNOLOGIES USED
 React
