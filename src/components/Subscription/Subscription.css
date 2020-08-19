@@ -1,0 +1,19 @@
+.subscription-entries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  border: solid black;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subscription-buttons {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}

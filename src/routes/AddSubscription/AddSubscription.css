@@ -1,0 +1,18 @@
+.sub_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.sub_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.addButton {
+  margin-left: 80px;
+  padding: 5px;
+}

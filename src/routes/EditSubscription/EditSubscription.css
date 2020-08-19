@@ -1,0 +1,39 @@
+.sub_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.sub_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.sub_user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.sub_password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.sub_category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 80px 20px 80px;
+}
+
+.editButton {
+  margin-left: 80px;
+  padding: 5px;
+}
