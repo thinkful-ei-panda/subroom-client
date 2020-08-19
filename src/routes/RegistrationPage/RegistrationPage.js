@@ -9,19 +9,11 @@ export default class LoginPage extends Component {
     },
   };
 
-  //   handleLoginSuccess = () => {
-  //     const { location, history } = this.props
-  //     const destination = (location.state || {}).from || '/dashboard'
-  //     history.push(destination)
-  //   }
-
   render() {
     return (
       <section className="RegistrationPage">
         <h2>Login</h2>
-        <RegistrationForm
-        //   onLoginSuccess={this.handleLoginSuccess}
-        />
+        <RegistrationForm />
       </section>
     );
   }
