@@ -1,3 +1,5 @@
+# Subroom
+
 LIVE LINK: https://subroom.vercel.app
 
 Demo Credentials-
@@ -22,7 +24,10 @@ Password: Thinkful1!
 - the add subscription form allows you to input your subscription information
 - entering password and usernames are not required
 
-TECHNOLOGIES USED
+API Repo: https://github.com/thinkful-ei-panda/subroom-api
+
+## TECHNOLOGIES USED
+
 React
 Express
 CSS3
