@@ -3,8 +3,10 @@
 LIVE LINK: https://subroom.vercel.app
 
 Demo Credentials -
-Username: Demo
-Password: Demo123!
+
+Username: Subroom
+
+Password: Subroom123!
 
 ![Alt text](https://github.com/thinkful-ei-panda/subroom-client/blob/master/Readmeimg/LangingPage.png)
 
