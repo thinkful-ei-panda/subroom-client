@@ -2,9 +2,9 @@
 
 LIVE LINK: https://subroom.vercel.app
 
-Demo Credentials-
-Username: Thinkful
-Password: Thinkful1!
+Demo Credentials -
+Username: Demo
+Password: Demo123!
 
 ![Alt text](https://github.com/thinkful-ei-panda/subroom-client/blob/master/Readmeimg/LangingPage.png)
 
